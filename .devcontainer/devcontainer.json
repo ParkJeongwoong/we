@@ -1,0 +1,6 @@
+{
+  "tasks": {
+    "build": "npx next build",
+    "launch": "npx next dev"
+  }
+}
