@@ -27,6 +27,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <header className="bg-red-600 text-white p-4 text-center">
+          <h1 className="text-4xl font-bold">Merry Christmas!</h1>
+        </header>
         {children}
       </body>
     </html>
